@@ -37,7 +37,7 @@ if (numCharacters < 8 || numCharacters > 128) {
   alert("You must choose between 8 and 128 characters.")
   return;
 }  
-console.log(numCharacters);
+console.log(length);
 //Does user have lower case characters?
   var hasLowerCase = confirm("Would you like to include lower case letters? Click 'OK' to confirm."); 
 //Does user have upper case characters?
