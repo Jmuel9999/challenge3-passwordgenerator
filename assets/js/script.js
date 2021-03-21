@@ -32,12 +32,12 @@ var randomSymbol = getRandomSymbol();
 
 function gatherCharacters() {
   //;debugger
-var numCharacters = window.prompt("How many characters would you like your password to be? Password must be between 8 and 128 characters.");
+var numCharacters = parseInt(window.prompt("How many characters would you like your password to be? Password must be between 8 and 128 characters."));
 if (numCharacters < 8 || numCharacters > 128) {
   alert("You must choose between 8 and 128 characters.")
   return;
 }  
-console.log(length);
+console.log(numCharacters);
 //Does user have lower case characters?
   var hasLowerCase = confirm("Would you like to include lower case letters? Click 'OK' to confirm."); 
 //Does user have upper case characters?
