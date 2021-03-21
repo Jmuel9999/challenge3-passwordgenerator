@@ -9,6 +9,10 @@ A website that can create a small, or large, random password for users' security
 * JavaScript
 
 ## Website
+https://jmuel9999.github.io/challenge3-passwordgenerator/
 
-**NOTICE** 
-I am aware of the current bug that will not allow the assignment to work 100% properly, I will be fixing that.
+# Screenshot
+![Full website screenshot]()
+
+                                                                               **NOTICE** 
+I am aware of the current bug that will not allow the assignment to work 100% properly, I will be fixing that. Any constructive feedback is always welcome and appreciated!
