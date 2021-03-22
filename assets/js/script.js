@@ -24,14 +24,14 @@ function getRandomSymbol() {
   var symbols = "!@#$%^&*(){}[]=<>/,.'"
   return symbols [Math.floor(Math.random() * symbols.length)]
 }
-
+//Translating the top 4 functions into global variables to be used throughout the code
 var lowerCase = getLowerCase();
 var upperCase = getUpperCase();
 var randomNumber = getRandomNumber();
 var randomSymbol = getRandomSymbol();
 
 function gatherCharacters() {
-  //;debugger
+  //;debugger       Tried the "parseInt" trick with "numCharacters". Successfuly made the variable a number, but did not fix the problem of not having the correct amount of characters for the password
 var numCharacters = parseInt(window.prompt("How many characters would you like your password to be? Password must be between 8 and 128 characters."));
 if (numCharacters < 8 || numCharacters > 128) {
   alert("You must choose between 8 and 128 characters.")
