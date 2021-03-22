@@ -11,6 +11,6 @@ A website that can create a small, or large, random password for users' security
 ## Website
 https://jmuel9999.github.io/challenge3-passwordgenerator/
 
-# Screenshot
-![Full website screenshot](./assets/images/passgen.png)
+## Screenshot
+![Full website screenshot](../bootcampgeneral/challenge3/assets/images/passgen.png)
 
